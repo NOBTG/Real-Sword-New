@@ -1,0 +1,7 @@
+Java Launcher: C:\Users\NOBTG\.jdks\corretto-17.0.9\bin\java.exe
+Arguments: '--inJar, C:\Dev Fider\Real Sword\build\fg_cache\net\neoforged\forge\1.20.1-47.1.65\forge-1.20.1-47.1.65-injected.jar, --outJar, C:\Dev Fider\Real Sword\build\fg_cache\net\neoforged\forge\1.20.1-47.1.65_mapped_official_1.20.1\forge-1.20.1-47.1.65_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Dev Fider\Real Sword\src\main\resources\META-INF\accesstransformer.cfg, --atFile, C:\Dev Fider\Real Sword\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\NOBTG\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: C:\Dev Fider\Real Sword\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

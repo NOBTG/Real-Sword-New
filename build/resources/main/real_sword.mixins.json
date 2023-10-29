@@ -1,0 +1,46 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nobtg.Mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "real_sword.refmap.json",
+  "mixins": [
+    "ResourceLocationMixin",
+    "Entity.EntityMixin",
+    "Entity.FoodDataMixin",
+    "Entity.LivingEntityMixin",
+    "FixFly.ServerPlayerGameModeMixin",
+    "Item.ItemStackMixin",
+    "Screens.ResourceLocationMixin",
+    "Servers.DedicatedServerMixin",
+    "Servers.GameTestServerMixin",
+    "SwordBlock.UseAnimMixin",
+    "TimeStop.MinecraftServerMixin",
+    "TimeStop.ServerLevelMixin",
+    "TimeStop.UtilMixin"
+  ],
+  "client": [
+    "ItemRendererMixin",
+    "LightTextureMixin",
+    "LocalPlayerMixin",
+    "MinecraftMixin",
+    "Item.CreativeModeInventoryScreenMixin",
+    "RenderEntity.EntityRenderDispatcherMixin",
+    "RenderEntity.LivingEntityRendererMixin",
+    "Screens.KeyMappingMixin",
+    "Screens.MinecraftMixin",
+    "Screens.RenderSystemMixin",
+    "Servers.IntegratedServerMixin",
+    "SwordBlock.HumanoidModelMixin",
+    "SwordBlock.ItemInHandRendererMixin",
+    "SwordBlock.PlayerItemInHandLayerMixin",
+    "TimeStop.CameraMixin",
+    "TimeStop.GameRendererMixin",
+    "TimeStop.GuiMixin",
+    "TimeStop.IntegratedServerMixin",
+    "TimeStop.MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

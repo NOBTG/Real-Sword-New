@@ -1,0 +1,106 @@
+{
+  "mappings": {
+    "com/nobtg/Mixins/Proxy/EntityRendererProxy": {
+      "shadowRadius": "f_114477_:F",
+      "shadowStrength": "f_114478_:F",
+      "font": "f_174005_:Lnet/minecraft/client/gui/Font;"
+    },
+    "com/nobtg/Mixins/Proxy/EntityProxy": {
+      "removalReason": "f_146795_:Lnet/minecraft/world/entity/Entity$RemovalReason;"
+    },
+    "com/nobtg/Mixins/Proxy/TransientEntitySectionManagerProxy": {
+      "entityStorage": "f_157637_:Lnet/minecraft/world/level/entity/EntityLookup;"
+    },
+    "com/nobtg/Mixins/Proxy/PersistentEntitySectionManagerProxy": {
+      "visibleEntityStorage": "f_157494_:Lnet/minecraft/world/level/entity/EntityLookup;",
+      "knownUuids": "f_157491_:Ljava/util/Set;"
+    },
+    "com/nobtg/Mixins/Proxy/FontManagerProxy": {
+      "missingFontSet": "f_94998_:Lnet/minecraft/client/gui/font/FontSet;",
+      "fontSets": "f_94999_:Ljava/util/Map;",
+      "renames": "f_95001_:Ljava/util/Map;"
+    },
+    "com/nobtg/Mixins/Proxy/MinecraftProxy": {
+      "fontManager": "f_91045_:Lnet/minecraft/client/gui/font/FontManager;",
+      "font": "f_91062_:Lnet/minecraft/client/gui/Font;"
+    },
+    "com/nobtg/Mixins/ClientLevelMixin": {
+      "tickEntities": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104804_()V",
+      "Lnet/minecraft/world/level/entity/EntityTickList;forEach(Ljava/util/function/Consumer;)V": "Lnet/minecraft/world/level/entity/EntityTickList;m_156910_(Ljava/util/function/Consumer;)V"
+    },
+    "com/nobtg/Mixins/LevelRendererMixin": {
+      "renderEntity": "Lnet/minecraft/client/renderer/LevelRenderer;m_109517_(Lnet/minecraft/world/entity/Entity;DDDFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;)V"
+    },
+    "com/nobtg/Mixins/Proxy/EntityRenderDispatcherProxy": {
+      "renderHitBoxes": "f_114369_:Z",
+      "level": "f_114366_:Lnet/minecraft/world/level/Level;",
+      "shouldRenderShadow": "f_114368_:Z"
+    },
+    "com/nobtg/Mixins/Proxy/ClientLevelProxy": {
+      "tickingEntities": "f_171630_:Lnet/minecraft/world/level/entity/EntityTickList;",
+      "entityStorage": "f_171631_:Lnet/minecraft/world/level/entity/TransientEntitySectionManager;"
+    },
+    "com/nobtg/Mixins/Proxy/ServerLevelProxy": {
+      "entityManager": "f_143244_:Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;",
+      "entityTickList": "f_143243_:Lnet/minecraft/world/level/entity/EntityTickList;"
+    },
+    "com/nobtg/Mixins/ServerLevelMixin": {
+      "addEntity": "Lnet/minecraft/server/level/ServerLevel;m_8872_(Lnet/minecraft/world/entity/Entity;)Z",
+      "tryAddFreshEntityWithPassengers": "Lnet/minecraft/server/level/ServerLevel;m_8860_(Lnet/minecraft/world/entity/Entity;)Z",
+      "addFreshEntity": "Lnet/minecraft/server/level/ServerLevel;m_7967_(Lnet/minecraft/world/entity/Entity;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/nobtg/Mixins/Proxy/EntityRendererProxy": {
+        "shadowRadius": "f_114477_:F",
+        "shadowStrength": "f_114478_:F",
+        "font": "f_174005_:Lnet/minecraft/client/gui/Font;"
+      },
+      "com/nobtg/Mixins/Proxy/EntityProxy": {
+        "removalReason": "f_146795_:Lnet/minecraft/world/entity/Entity$RemovalReason;"
+      },
+      "com/nobtg/Mixins/Proxy/TransientEntitySectionManagerProxy": {
+        "entityStorage": "f_157637_:Lnet/minecraft/world/level/entity/EntityLookup;"
+      },
+      "com/nobtg/Mixins/Proxy/PersistentEntitySectionManagerProxy": {
+        "visibleEntityStorage": "f_157494_:Lnet/minecraft/world/level/entity/EntityLookup;",
+        "knownUuids": "f_157491_:Ljava/util/Set;"
+      },
+      "com/nobtg/Mixins/Proxy/FontManagerProxy": {
+        "missingFontSet": "f_94998_:Lnet/minecraft/client/gui/font/FontSet;",
+        "fontSets": "f_94999_:Ljava/util/Map;",
+        "renames": "f_95001_:Ljava/util/Map;"
+      },
+      "com/nobtg/Mixins/Proxy/MinecraftProxy": {
+        "fontManager": "f_91045_:Lnet/minecraft/client/gui/font/FontManager;",
+        "font": "f_91062_:Lnet/minecraft/client/gui/Font;"
+      },
+      "com/nobtg/Mixins/ClientLevelMixin": {
+        "tickEntities": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104804_()V",
+        "Lnet/minecraft/world/level/entity/EntityTickList;forEach(Ljava/util/function/Consumer;)V": "Lnet/minecraft/world/level/entity/EntityTickList;m_156910_(Ljava/util/function/Consumer;)V"
+      },
+      "com/nobtg/Mixins/LevelRendererMixin": {
+        "renderEntity": "Lnet/minecraft/client/renderer/LevelRenderer;m_109517_(Lnet/minecraft/world/entity/Entity;DDDFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;)V"
+      },
+      "com/nobtg/Mixins/Proxy/EntityRenderDispatcherProxy": {
+        "renderHitBoxes": "f_114369_:Z",
+        "level": "f_114366_:Lnet/minecraft/world/level/Level;",
+        "shouldRenderShadow": "f_114368_:Z"
+      },
+      "com/nobtg/Mixins/Proxy/ClientLevelProxy": {
+        "tickingEntities": "f_171630_:Lnet/minecraft/world/level/entity/EntityTickList;",
+        "entityStorage": "f_171631_:Lnet/minecraft/world/level/entity/TransientEntitySectionManager;"
+      },
+      "com/nobtg/Mixins/Proxy/ServerLevelProxy": {
+        "entityManager": "f_143244_:Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;",
+        "entityTickList": "f_143243_:Lnet/minecraft/world/level/entity/EntityTickList;"
+      },
+      "com/nobtg/Mixins/ServerLevelMixin": {
+        "addEntity": "Lnet/minecraft/server/level/ServerLevel;m_8872_(Lnet/minecraft/world/entity/Entity;)Z",
+        "tryAddFreshEntityWithPassengers": "Lnet/minecraft/server/level/ServerLevel;m_8860_(Lnet/minecraft/world/entity/Entity;)Z",
+        "addFreshEntity": "Lnet/minecraft/server/level/ServerLevel;m_7967_(Lnet/minecraft/world/entity/Entity;)Z"
+      }
+    }
+  }
+}

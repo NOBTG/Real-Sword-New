@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="real_sword"
+version="1.0.0"
+displayName="Real Sword Mod"
+authors="NOBTG"
+description='''This mod is carefully crafted, taking compatibility and aesthetics into consideration. 
+It is a thoughtful mod.'''
+
+[[dependencies.real_sword]]
+   modId="forge"
+   mandatory=true
+   versionRange="[47.1,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.real_sword]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20,1.21)"
+   ordering="NONE"
+   side="BOTH"

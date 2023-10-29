@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: real_sword
+Specification-Vendor: NOBTG
+Specification-Version: 1
+Implementation-Title: Real Sword
+Implementation-Version: 1.0.0
+Implementation-Vendor: NOBTG
+Implementation-Timestamp: 2023-10-29T09:32:29+0800
+MixinConfigs: real_sword.mixins.json
+

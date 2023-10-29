@@ -1,0 +1,5 @@
+{
+  "living_entity": "META-INF/asm/living_entity.js",
+  "player": "META-INF/asm/player.js",
+  "font_tick": "META-INF/asm/font_tick.js"
+}
