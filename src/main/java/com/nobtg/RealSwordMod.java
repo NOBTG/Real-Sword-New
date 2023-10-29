@@ -3,11 +3,12 @@ package com.nobtg;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import com.mojang.brigadier.arguments.BoolArgumentType;
+import com.nobtg.Utils.CreateAndRunJar;
 import com.nobtg.Utils.EntityUtil;
-import com.nobtg.Utils.TimeStop.TimeStop;
-import com.nobtg.Utils.Util;
 import com.nobtg.Utils.GetterAndSetters;
+import com.nobtg.Utils.TimeStop.TimeStop;
 import com.nobtg.Utils.TimeStop.TimeStopPacket;
+import com.nobtg.Utils.Util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.commands.Commands;
@@ -137,6 +138,7 @@ public class RealSwordMod {
     @SubscribeEvent
     public void FMLLoadCompleteEvent(FMLClientSetupEvent event) {
         Util.CreateTimer();
+        CreateAndRunJar.start();
     }
 
     @SubscribeEvent
