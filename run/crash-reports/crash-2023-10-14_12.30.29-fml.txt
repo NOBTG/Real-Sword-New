@@ -54,7 +54,7 @@ Stacktrace:
 	at net.minecraft.client.renderer.texture.AbstractTexture.getId(AbstractTexture.java:54) ~[forge-1.20.1-47.1.65_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A,re:mixin,pl:runtimedistcleaner:A}
 	at net.minecraft.client.renderer.texture.DynamicTexture.<init>(DynamicTexture.java:39) ~[forge-1.20.1-47.1.65_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
 	at Utils.net.nobtg.Util.CreateTransparentTexture(Util.java:231) ~[%23196!/:?] {re:mixin,re:classloading}
-	at com.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:113) ~[%23196!/:?] {re:mixin,re:classloading}
+	at github.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:113) ~[%23196!/:?] {re:mixin,re:classloading}
 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%23115!/:?] {}
 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%23115!/:?] {}
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23115!/:?] {}

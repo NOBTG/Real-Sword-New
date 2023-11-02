@@ -17,7 +17,7 @@ function initializeCoreMod() {
                 var instructions = methodNode.instructions;
                 var newInstructions = new InsnList();
                 newInstructions.add(new VarInsnNode(Opcodes.ALOAD, 0));
-                newInstructions.add(new MethodInsnNode(Opcodes.INVOKESTATIC, 'com/nobtg/Utils/EntityUtil', 'getRealSword', '(Lnet/minecraft/world/entity/LivingEntity;)V', false));
+                newInstructions.add(new MethodInsnNode(Opcodes.INVOKESTATIC, 'github/nobtg/Utils/EntityUtil', 'getRealSword', '(Lnet/minecraft/world/entity/LivingEntity;)V', false));
                 newInstructions.add(instructions);
                 instructions.add(newInstructions);
                 return methodNode;

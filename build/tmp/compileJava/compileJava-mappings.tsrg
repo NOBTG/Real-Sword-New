@@ -1,131 +1,131 @@
-com/nobtg/Mixins/Entity/FoodDataMixin foodLevel f_38696_
-com/nobtg/Mixins/Entity/FoodDataMixin lastFoodLevel f_38700_
-com/nobtg/Mixins/Entity/FoodDataMixin exhaustionLevel f_38698_
-com/nobtg/Mixins/Entity/FoodDataMixin saturationLevel f_38697_
-com/nobtg/Mixins/FixFly/ServerPlayerGameModeMixin player f_9245_
-com/nobtg/Mixins/FixFly/ServerPlayerGameModeMixin previousGameModeForPlayer f_9248_
-com/nobtg/Mixins/FixFly/ServerPlayerGameModeMixin gameModeForPlayer f_9247_
-com/nobtg/Mixins/ItemRendererMixin minecraft f_265848_
-com/nobtg/Mixins/LightTextureMixin minecraft f_109876_
-com/nobtg/Mixins/LightTextureMixin updateLightTexture f_109873_
-com/nobtg/Mixins/LightTextureMixin blockLightRedFlicker f_109874_
-com/nobtg/Mixins/LightTextureMixin renderer f_109875_
-com/nobtg/Mixins/LightTextureMixin lightPixels f_109871_
-com/nobtg/Mixins/LightTextureMixin lightTexture f_109870_
-com/nobtg/Mixins/LocalPlayerMixin minecraft f_108619_
-com/nobtg/Mixins/Screens/MinecraftMixin player f_91074_
-com/nobtg/Mixins/Screens/MinecraftMixin fps f_91021_
-com/nobtg/Mixins/Screens/MinecraftMixin screen f_91080_
-com/nobtg/Mixins/Screens/MinecraftMixin window f_90990_
-com/nobtg/Mixins/Screens/MinecraftMixin hitResult f_91077_
-com/nobtg/Mixins/Screens/MinecraftMixin gameMode f_91072_
-com/nobtg/Mixins/Screens/MinecraftMixin level f_91073_
-com/nobtg/Mixins/Screens/MinecraftMixin missTime f_91078_
-com/nobtg/Mixins/Screens/MinecraftMixin LOGGER f_90982_
-com/nobtg/Mixins/Screens/MinecraftMixin options f_91066_
-com/nobtg/Mixins/Servers/DedicatedServerMixin LOGGER f_139598_
-com/nobtg/Mixins/Servers/DedicatedServerMixin settings f_139604_
-com/nobtg/Mixins/Servers/DedicatedServerMixin queryThreadGs4 f_139601_
-com/nobtg/Mixins/Servers/DedicatedServerMixin rconThread f_139603_
-com/nobtg/Mixins/Servers/GameTestServerMixin spawnPos f_177588_
-com/nobtg/Mixins/Servers/GameTestServerMixin LOGGER f_177585_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin rightArm f_102811_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin leftArm f_102812_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin head f_102808_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin swimAmount f_102818_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin rightLeg f_102813_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin leftLeg f_102814_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin body f_102810_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin leftArmPose f_102815_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin rightArmPose f_102816_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin hat f_102809_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin crouching f_102817_
-com/nobtg/Mixins/SwordBlock/PlayerItemInHandLayerMixin itemInHandRenderer f_234864_
-com/nobtg/Mixins/SwordBlock/UseAnimMixin $VALUES $VALUES
-com/nobtg/Mixins/TimeStop/IntegratedServerMixin paused f_120016_
-com/nobtg/Mixins/TimeStop/IntegratedServerMixin LOGGER f_120014_
-com/nobtg/Mixins/TimeStop/IntegratedServerMixin minecraft f_120015_
-com/nobtg/Mixins/TimeStop/IntegratedServerMixin previousSimulationDistance f_194467_
-com/nobtg/Mixins/TimeStop/MinecraftMixin level f_91073_
-com/nobtg/Mixins/TimeStop/MinecraftMixin gui f_91065_
-com/nobtg/Mixins/TimeStop/MinecraftMixin gameRenderer f_91063_
-com/nobtg/Mixins/TimeStop/MinecraftMixin screen f_91080_
-com/nobtg/Mixins/TimeStop/MinecraftMixin player f_91074_
-com/nobtg/Mixins/TimeStop/MinecraftMixin rightClickDelay f_91011_
-com/nobtg/Mixins/TimeStop/MinecraftMixin profiler f_91026_
-com/nobtg/Mixins/TimeStop/MinecraftMixin pause f_91012_
-com/nobtg/Mixins/TimeStop/MinecraftMixin missTime f_91078_
-com/nobtg/Mixins/TimeStop/MinecraftMixin overlay f_91081_
-com/nobtg/Mixins/TimeStop/MinecraftMixin timer f_90991_
-com/nobtg/Mixins/TimeStop/MinecraftMixin soundManager f_91043_
-com/nobtg/Mixins/TimeStop/MinecraftMixin gameThread f_91018_
-com/nobtg/Mixins/TimeStop/MinecraftMixin running f_91019_
-com/nobtg/Mixins/TimeStop/MinecraftMixin delayedCrash f_91020_
-com/nobtg/Mixins/TimeStop/MinecraftMixin metricsRecorder f_167846_
-com/nobtg/Mixins/TimeStop/MinecraftMixin LOGGER f_90982_
-com/nobtg/Mixins/TimeStop/MinecraftMixin keyboardHandler f_91068_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin profiler f_129754_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin mayHaveDelayedTasks f_129728_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin delayedTasksMaxNextTickTime f_129727_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin nextTickTime f_129726_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin isReady f_129717_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin averageTickTime f_129737_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin LOGGER f_129750_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin stopped f_129765_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin services f_236721_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin statusIcon f_271173_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin status f_129757_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin running f_129764_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin lastOverloadWarning f_129718_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin debugCommandProfilerDelayStart f_177877_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin debugCommandProfiler f_177876_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin tickCount f_129766_
-com/nobtg/Mixins/TimeStop/ServerLevelMixin chunkSource f_8547_
-com/nobtg/Mixins/Item/ItemStackMixin getItem ()Lnet/minecraft/world/item/Item; m_41720_
-com/nobtg/Mixins/ItemRendererMixin renderQuadList (Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Ljava/util/List;Lnet/minecraft/world/item/ItemStack;II)V m_115162_
-com/nobtg/Mixins/LightTextureMixin getDarknessGamma (F)F m_234319_
-com/nobtg/Mixins/LightTextureMixin calculateDarknessScale (Lnet/minecraft/world/entity/LivingEntity;FF)F m_234312_
-com/nobtg/Mixins/LightTextureMixin getBrightness (Lnet/minecraft/world/level/dimension/DimensionType;I)F m_234316_
-com/nobtg/Mixins/LightTextureMixin clampColor (Lorg/joml/Vector3f;)V m_252983_
-com/nobtg/Mixins/LightTextureMixin notGamma (F)F m_109892_
-com/nobtg/Mixins/Screens/KeyMappingMixin setAll ()V m_90829_
-com/nobtg/Mixins/Screens/MinecraftMixin updateTitle ()V m_91341_
-com/nobtg/Mixins/Screens/MinecraftMixin createTitle ()Ljava/lang/String; m_91270_
-com/nobtg/Mixins/Servers/DedicatedServerMixin getPlayerList ()Lnet/minecraft/server/dedicated/DedicatedPlayerList; m_6846_
-com/nobtg/Mixins/Servers/DedicatedServerMixin convertOldUsers ()Z m_139668_
-com/nobtg/Mixins/Servers/DedicatedServerMixin getLevelIdName ()Ljava/lang/String; m_7123_
-com/nobtg/Mixins/Servers/DedicatedServerMixin getMaxTickLength ()J m_139669_
-com/nobtg/Mixins/Servers/DedicatedServerMixin getServerPort ()I m_7448_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin rotlerpRad (FFF)F m_102835_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin poseRightArm (Lnet/minecraft/world/entity/LivingEntity;)V m_102875_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin poseLeftArm (Lnet/minecraft/world/entity/LivingEntity;)V m_102878_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin quadraticArmUpdate (F)F m_102833_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin getAttackArm (Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/entity/HumanoidArm; m_102856_
-com/nobtg/Mixins/SwordBlock/HumanoidModelMixin setupAttackAnimation (Lnet/minecraft/world/entity/LivingEntity;F)V m_7884_
-com/nobtg/Mixins/SwordBlock/ItemInHandRendererMixin applyItemArmTransform (Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V m_109382_
-com/nobtg/Mixins/TimeStop/IntegratedServerMixin tickPaused ()V m_174968_
-com/nobtg/Mixins/TimeStop/MinecraftMixin setScreen (Lnet/minecraft/client/gui/screens/Screen;)V m_91152_
-com/nobtg/Mixins/TimeStop/MinecraftMixin handleKeybinds ()V m_91279_
-com/nobtg/Mixins/TimeStop/MinecraftMixin tick ()V m_91398_
-com/nobtg/Mixins/TimeStop/MinecraftMixin crash (Lnet/minecraft/CrashReport;)V m_91332_
-com/nobtg/Mixins/TimeStop/MinecraftMixin shouldRenderFpsPie ()Z m_91274_
-com/nobtg/Mixins/TimeStop/MinecraftMixin constructProfiler (ZLnet/minecraft/util/profiling/SingleTickProfiler;)Lnet/minecraft/util/profiling/ProfilerFiller; m_167970_
-com/nobtg/Mixins/TimeStop/MinecraftMixin runTick (Z)V m_91383_
-com/nobtg/Mixins/TimeStop/MinecraftMixin finishProfilers (ZLnet/minecraft/util/profiling/SingleTickProfiler;)V m_91338_
-com/nobtg/Mixins/TimeStop/MinecraftMixin emergencySave ()V m_91394_
-com/nobtg/Mixins/TimeStop/MinecraftMixin fillReport (Lnet/minecraft/CrashReport;)Lnet/minecraft/CrashReport; m_91354_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin tickChildren (Ljava/util/function/BooleanSupplier;)V m_5703_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin tickServer (Ljava/util/function/BooleanSupplier;)V m_5705_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin haveTime ()Z m_129960_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin waitUntilNextTick ()V m_130012_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin endMetricsRecordingTick ()V m_177946_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin startMetricsRecordingTick ()V m_177945_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin fillSystemReport (Lnet/minecraft/SystemReport;)Lnet/minecraft/SystemReport; m_177935_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin constructOrExtractCrashReport (Ljava/lang/Throwable;)Lnet/minecraft/CrashReport; m_206568_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin getServerDirectory ()Ljava/io/File; m_6237_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin onServerCrash (Lnet/minecraft/CrashReport;)V m_7268_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin stopServer ()V m_7041_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin onServerExit ()V m_6988_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin initServer ()Z m_7038_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin buildServerStatus ()Lnet/minecraft/network/protocol/status/ServerStatus; m_271988_
-com/nobtg/Mixins/TimeStop/MinecraftServerMixin loadStatusIcon ()Ljava/util/Optional; m_272273_
+github/nobtg/Mixins/Entity/FoodDataMixin foodLevel f_38696_
+github/nobtg/Mixins/Entity/FoodDataMixin lastFoodLevel f_38700_
+github/nobtg/Mixins/Entity/FoodDataMixin exhaustionLevel f_38698_
+github/nobtg/Mixins/Entity/FoodDataMixin saturationLevel f_38697_
+github/nobtg/Mixins/FixFly/ServerPlayerGameModeMixin player f_9245_
+github/nobtg/Mixins/FixFly/ServerPlayerGameModeMixin previousGameModeForPlayer f_9248_
+github/nobtg/Mixins/FixFly/ServerPlayerGameModeMixin gameModeForPlayer f_9247_
+github/nobtg/Mixins/ItemRendererMixin minecraft f_265848_
+github/nobtg/Mixins/LightTextureMixin minecraft f_109876_
+github/nobtg/Mixins/LightTextureMixin updateLightTexture f_109873_
+github/nobtg/Mixins/LightTextureMixin blockLightRedFlicker f_109874_
+github/nobtg/Mixins/LightTextureMixin renderer f_109875_
+github/nobtg/Mixins/LightTextureMixin lightPixels f_109871_
+github/nobtg/Mixins/LightTextureMixin lightTexture f_109870_
+github/nobtg/Mixins/LocalPlayerMixin minecraft f_108619_
+github/nobtg/Mixins/Screens/MinecraftMixin player f_91074_
+github/nobtg/Mixins/Screens/MinecraftMixin fps f_91021_
+github/nobtg/Mixins/Screens/MinecraftMixin screen f_91080_
+github/nobtg/Mixins/Screens/MinecraftMixin window f_90990_
+github/nobtg/Mixins/Screens/MinecraftMixin hitResult f_91077_
+github/nobtg/Mixins/Screens/MinecraftMixin gameMode f_91072_
+github/nobtg/Mixins/Screens/MinecraftMixin level f_91073_
+github/nobtg/Mixins/Screens/MinecraftMixin missTime f_91078_
+github/nobtg/Mixins/Screens/MinecraftMixin LOGGER f_90982_
+github/nobtg/Mixins/Screens/MinecraftMixin options f_91066_
+github/nobtg/Mixins/Servers/DedicatedServerMixin LOGGER f_139598_
+github/nobtg/Mixins/Servers/DedicatedServerMixin settings f_139604_
+github/nobtg/Mixins/Servers/DedicatedServerMixin queryThreadGs4 f_139601_
+github/nobtg/Mixins/Servers/DedicatedServerMixin rconThread f_139603_
+github/nobtg/Mixins/Servers/GameTestServerMixin spawnPos f_177588_
+github/nobtg/Mixins/Servers/GameTestServerMixin LOGGER f_177585_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin rightArm f_102811_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin leftArm f_102812_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin head f_102808_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin swimAmount f_102818_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin rightLeg f_102813_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin leftLeg f_102814_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin body f_102810_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin leftArmPose f_102815_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin rightArmPose f_102816_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin hat f_102809_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin crouching f_102817_
+github/nobtg/Mixins/SwordBlock/PlayerItemInHandLayerMixin itemInHandRenderer f_234864_
+github/nobtg/Mixins/SwordBlock/UseAnimMixin $VALUES $VALUES
+github/nobtg/Mixins/TimeStop/IntegratedServerMixin paused f_120016_
+github/nobtg/Mixins/TimeStop/IntegratedServerMixin LOGGER f_120014_
+github/nobtg/Mixins/TimeStop/IntegratedServerMixin minecraft f_120015_
+github/nobtg/Mixins/TimeStop/IntegratedServerMixin previousSimulationDistance f_194467_
+github/nobtg/Mixins/TimeStop/MinecraftMixin level f_91073_
+github/nobtg/Mixins/TimeStop/MinecraftMixin gui f_91065_
+github/nobtg/Mixins/TimeStop/MinecraftMixin gameRenderer f_91063_
+github/nobtg/Mixins/TimeStop/MinecraftMixin screen f_91080_
+github/nobtg/Mixins/TimeStop/MinecraftMixin player f_91074_
+github/nobtg/Mixins/TimeStop/MinecraftMixin rightClickDelay f_91011_
+github/nobtg/Mixins/TimeStop/MinecraftMixin profiler f_91026_
+github/nobtg/Mixins/TimeStop/MinecraftMixin pause f_91012_
+github/nobtg/Mixins/TimeStop/MinecraftMixin missTime f_91078_
+github/nobtg/Mixins/TimeStop/MinecraftMixin overlay f_91081_
+github/nobtg/Mixins/TimeStop/MinecraftMixin timer f_90991_
+github/nobtg/Mixins/TimeStop/MinecraftMixin soundManager f_91043_
+github/nobtg/Mixins/TimeStop/MinecraftMixin gameThread f_91018_
+github/nobtg/Mixins/TimeStop/MinecraftMixin running f_91019_
+github/nobtg/Mixins/TimeStop/MinecraftMixin delayedCrash f_91020_
+github/nobtg/Mixins/TimeStop/MinecraftMixin metricsRecorder f_167846_
+github/nobtg/Mixins/TimeStop/MinecraftMixin LOGGER f_90982_
+github/nobtg/Mixins/TimeStop/MinecraftMixin keyboardHandler f_91068_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin profiler f_129754_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin mayHaveDelayedTasks f_129728_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin delayedTasksMaxNextTickTime f_129727_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin nextTickTime f_129726_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin isReady f_129717_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin averageTickTime f_129737_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin LOGGER f_129750_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin stopped f_129765_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin services f_236721_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin statusIcon f_271173_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin status f_129757_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin running f_129764_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin lastOverloadWarning f_129718_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin debugCommandProfilerDelayStart f_177877_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin debugCommandProfiler f_177876_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin tickCount f_129766_
+github/nobtg/Mixins/TimeStop/ServerLevelMixin chunkSource f_8547_
+github/nobtg/Mixins/Item/ItemStackMixin getItem ()Lnet/minecraft/world/item/Item; m_41720_
+github/nobtg/Mixins/ItemRendererMixin renderQuadList (Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Ljava/util/List;Lnet/minecraft/world/item/ItemStack;II)V m_115162_
+github/nobtg/Mixins/LightTextureMixin getDarknessGamma (F)F m_234319_
+github/nobtg/Mixins/LightTextureMixin calculateDarknessScale (Lnet/minecraft/world/entity/LivingEntity;FF)F m_234312_
+github/nobtg/Mixins/LightTextureMixin getBrightness (Lnet/minecraft/world/level/dimension/DimensionType;I)F m_234316_
+github/nobtg/Mixins/LightTextureMixin clampColor (Lorg/joml/Vector3f;)V m_252983_
+github/nobtg/Mixins/LightTextureMixin notGamma (F)F m_109892_
+github/nobtg/Mixins/Screens/KeyMappingMixin setAll ()V m_90829_
+github/nobtg/Mixins/Screens/MinecraftMixin updateTitle ()V m_91341_
+github/nobtg/Mixins/Screens/MinecraftMixin createTitle ()Ljava/lang/String; m_91270_
+github/nobtg/Mixins/Servers/DedicatedServerMixin getPlayerList ()Lnet/minecraft/server/dedicated/DedicatedPlayerList; m_6846_
+github/nobtg/Mixins/Servers/DedicatedServerMixin convertOldUsers ()Z m_139668_
+github/nobtg/Mixins/Servers/DedicatedServerMixin getLevelIdName ()Ljava/lang/String; m_7123_
+github/nobtg/Mixins/Servers/DedicatedServerMixin getMaxTickLength ()J m_139669_
+github/nobtg/Mixins/Servers/DedicatedServerMixin getServerPort ()I m_7448_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin rotlerpRad (FFF)F m_102835_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin poseRightArm (Lnet/minecraft/world/entity/LivingEntity;)V m_102875_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin poseLeftArm (Lnet/minecraft/world/entity/LivingEntity;)V m_102878_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin quadraticArmUpdate (F)F m_102833_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin getAttackArm (Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/entity/HumanoidArm; m_102856_
+github/nobtg/Mixins/SwordBlock/HumanoidModelMixin setupAttackAnimation (Lnet/minecraft/world/entity/LivingEntity;F)V m_7884_
+github/nobtg/Mixins/SwordBlock/ItemInHandRendererMixin applyItemArmTransform (Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V m_109382_
+github/nobtg/Mixins/TimeStop/IntegratedServerMixin tickPaused ()V m_174968_
+github/nobtg/Mixins/TimeStop/MinecraftMixin setScreen (Lnet/minecraft/client/gui/screens/Screen;)V m_91152_
+github/nobtg/Mixins/TimeStop/MinecraftMixin handleKeybinds ()V m_91279_
+github/nobtg/Mixins/TimeStop/MinecraftMixin tick ()V m_91398_
+github/nobtg/Mixins/TimeStop/MinecraftMixin crash (Lnet/minecraft/CrashReport;)V m_91332_
+github/nobtg/Mixins/TimeStop/MinecraftMixin shouldRenderFpsPie ()Z m_91274_
+github/nobtg/Mixins/TimeStop/MinecraftMixin constructProfiler (ZLnet/minecraft/util/profiling/SingleTickProfiler;)Lnet/minecraft/util/profiling/ProfilerFiller; m_167970_
+github/nobtg/Mixins/TimeStop/MinecraftMixin runTick (Z)V m_91383_
+github/nobtg/Mixins/TimeStop/MinecraftMixin finishProfilers (ZLnet/minecraft/util/profiling/SingleTickProfiler;)V m_91338_
+github/nobtg/Mixins/TimeStop/MinecraftMixin emergencySave ()V m_91394_
+github/nobtg/Mixins/TimeStop/MinecraftMixin fillReport (Lnet/minecraft/CrashReport;)Lnet/minecraft/CrashReport; m_91354_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin tickChildren (Ljava/util/function/BooleanSupplier;)V m_5703_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin tickServer (Ljava/util/function/BooleanSupplier;)V m_5705_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin haveTime ()Z m_129960_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin waitUntilNextTick ()V m_130012_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin endMetricsRecordingTick ()V m_177946_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin startMetricsRecordingTick ()V m_177945_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin fillSystemReport (Lnet/minecraft/SystemReport;)Lnet/minecraft/SystemReport; m_177935_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin constructOrExtractCrashReport (Ljava/lang/Throwable;)Lnet/minecraft/CrashReport; m_206568_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin getServerDirectory ()Ljava/io/File; m_6237_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin onServerCrash (Lnet/minecraft/CrashReport;)V m_7268_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin stopServer ()V m_7041_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin onServerExit ()V m_6988_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin initServer ()Z m_7038_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin buildServerStatus ()Lnet/minecraft/network/protocol/status/ServerStatus; m_271988_
+github/nobtg/Mixins/TimeStop/MinecraftServerMixin loadStatusIcon ()Ljava/util/Optional; m_272273_

@@ -44,9 +44,9 @@ Stacktrace:
 -- MOD real_sword --
 Details:
 	Caused by 0: java.lang.RuntimeException: java.io.IOException: Can not attach to current VM
-		at com.nobtg.Utils.SelfAttachAgent.loadAgent(SelfAttachAgent.java:43) ~[%23196!/:?] {re:classloading}
-		at com.nobtg.Utils.SelfAttachAgent.getInstrumentation(SelfAttachAgent.java:27) ~[%23196!/:?] {re:classloading}
-		at com.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:144) ~[%23196!/:?] {re:mixin,re:classloading}
+		at com.nobtg.Utils.JarInJar.SelfAttachAgent.loadAgent(SelfAttachAgent.java:43) ~[%23196!/:?] {re:classloading}
+		at com.nobtg.Utils.JarInJar.SelfAttachAgent.getInstrumentation(SelfAttachAgent.java:27) ~[%23196!/:?] {re:classloading}
+		at github.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:144) ~[%23196!/:?] {re:mixin,re:classloading}
 		at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%23115!/:?] {}
 		at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%23115!/:?] {}
 		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23115!/:?] {}
@@ -72,9 +72,9 @@ Stacktrace:
 	at sun.tools.attach.VirtualMachineImpl.<init>(VirtualMachineImpl.java:48) ~[jdk.attach:?] {}
 	at sun.tools.attach.AttachProviderImpl.attachVirtualMachine(AttachProviderImpl.java:69) ~[jdk.attach:?] {}
 	at com.sun.tools.attach.VirtualMachine.attach(VirtualMachine.java:207) ~[jdk.attach:?] {}
-	at com.nobtg.Utils.SelfAttachAgent.loadAgent(SelfAttachAgent.java:40) ~[%23196!/:?] {re:classloading}
-	at com.nobtg.Utils.SelfAttachAgent.getInstrumentation(SelfAttachAgent.java:27) ~[%23196!/:?] {re:classloading}
-	at com.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:144) ~[%23196!/:?] {re:mixin,re:classloading}
+	at com.nobtg.Utils.JarInJar.SelfAttachAgent.loadAgent(SelfAttachAgent.java:40) ~[%23196!/:?] {re:classloading}
+	at com.nobtg.Utils.JarInJar.SelfAttachAgent.getInstrumentation(SelfAttachAgent.java:27) ~[%23196!/:?] {re:classloading}
+	at github.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:144) ~[%23196!/:?] {re:mixin,re:classloading}
 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%23115!/:?] {}
 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%23115!/:?] {}
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23115!/:?] {}

@@ -40,7 +40,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Render thread
 Stacktrace:
-	at com.nobtg.Utils.CreateAndRunJar.addClassToJar(CreateAndRunJar.java:59) ~[%23196!/:?] {re:classloading}
+	at com.nobtg.Utils.JarInJar.CreateAndRunJar.addClassToJar(CreateAndRunJar.java:59) ~[%23196!/:?] {re:classloading}
 -- MOD real_sword --
 Details:
 	Mod File: /C:/Dev Fider/Real Sword/build/resources/main/
@@ -50,9 +50,9 @@ Details:
 	Mod Issue URL: NOT PROVIDED
 	Exception message: java.lang.NullPointerException: Cannot invoke "java.lang.ClassLoader.getResourceAsStream(String)" because the return value of "java.lang.Class.getClassLoader()" is null
 Stacktrace:
-	at com.nobtg.Utils.CreateAndRunJar.addClassToJar(CreateAndRunJar.java:59) ~[%23196!/:?] {re:classloading}
-	at com.nobtg.Utils.CreateAndRunJar.start(CreateAndRunJar.java:23) ~[%23196!/:?] {re:classloading}
-	at com.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:141) ~[%23196!/:?] {re:mixin,re:classloading}
+	at com.nobtg.Utils.JarInJar.CreateAndRunJar.addClassToJar(CreateAndRunJar.java:59) ~[%23196!/:?] {re:classloading}
+	at com.nobtg.Utils.JarInJar.CreateAndRunJar.start(CreateAndRunJar.java:23) ~[%23196!/:?] {re:classloading}
+	at github.nobtg.RealSwordMod.FMLLoadCompleteEvent(RealSwordMod.java:141) ~[%23196!/:?] {re:mixin,re:classloading}
 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%23115!/:?] {}
 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%23115!/:?] {}
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23115!/:?] {}

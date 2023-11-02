@@ -68,7 +68,7 @@ Details:
 Stacktrace:
 	at java.util.Objects.requireNonNull(Objects.java:336) ~[?:?] {re:mixin}
 	at net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:204) ~[forge-1.20.1-47.1.65_mapped_official_1.20.1-recomp.jar%23190%23197!/:?] {re:mixin,re:classloading}
-	at com.nobtg.RealSwordMod.<init>(RealSwordMod.java:119) ~[%23196!/:?] {re:mixin,re:classloading}
+	at github.nobtg.RealSwordMod.<init>(RealSwordMod.java:119) ~[%23196!/:?] {re:mixin,re:classloading}
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
 	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}

@@ -61,7 +61,7 @@ Details:
 	Caused by 1: java.lang.RuntimeException: java.lang.NoSuchFieldException: f_118468_
 		at Utils.net.nobtg.Util.fieldField(Util.java:327) ~[%23196!/:?] {re:mixin,re:classloading}
 		at Utils.net.nobtg.Util.CreateTransparentTexture(Util.java:230) ~[%23196!/:?] {re:mixin,re:classloading}
-		at com.nobtg.RealSwordMod.<init>(RealSwordMod.java:107) ~[%23196!/:?] {re:mixin,re:classloading}
+		at github.nobtg.RealSwordMod.<init>(RealSwordMod.java:107) ~[%23196!/:?] {re:mixin,re:classloading}
 		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
 		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
 		at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
@@ -87,7 +87,7 @@ Stacktrace:
 	at java.lang.Class.getDeclaredField(Class.java:2610) ~[?:?] {re:mixin}
 	at Utils.net.nobtg.Util.fieldField(Util.java:323) ~[%23196!/:?] {re:mixin,re:classloading}
 	at Utils.net.nobtg.Util.CreateTransparentTexture(Util.java:230) ~[%23196!/:?] {re:mixin,re:classloading}
-	at com.nobtg.RealSwordMod.<init>(RealSwordMod.java:107) ~[%23196!/:?] {re:mixin,re:classloading}
+	at github.nobtg.RealSwordMod.<init>(RealSwordMod.java:107) ~[%23196!/:?] {re:mixin,re:classloading}
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
 	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}

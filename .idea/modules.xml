@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Real_Sword.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Real_Sword.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Real_Sword.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Real_Sword.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.nobtg.RealSwordMod.Real_Sword.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.nobtg.RealSwordMod.Real_Sword.test.iml" />
     </modules>
   </component>
 </project>
